@@ -30,3 +30,13 @@ const crop = function* () {
     }
 }()
 
+
+
+
+// In the plan.js module, there is a createPlan() function that is exported. In the main.js module, import that function and invoke it. Since that function returns a value, you need to store that value in a variable named yearlyPlan.
+
+// Remember that to assign what a function returns as a value of a variable, the syntax is...
+
+// const appropriatelyNamedVariable = theFunctionThatReturnsAValue()
+// Then use console.log() to output the value of yearlyPlan to the developer console in Chrome.
+
