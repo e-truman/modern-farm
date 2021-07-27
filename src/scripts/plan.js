@@ -1,6 +1,4 @@
-import { createAsparagus } from "./seeds/asparagus.js"
-import { createSunflower } from "./seeds/sunflower.js"
-import { createWheat } from "./seeds/wheat.js"
+
 
 
 

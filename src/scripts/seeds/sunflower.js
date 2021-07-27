@@ -6,8 +6,7 @@ export const createSunflower = () => {
         return sunflower
 }
 
-    const sunflowerObject = createSunflower()
-    console.log(sunflowerObject)
+  
 
 
 // let crops = []

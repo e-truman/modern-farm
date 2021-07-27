@@ -4,5 +4,3 @@ export const createCorn = () => {
 }
 
 
-const cornArray = createCorn()
-console.log(cornArray)
