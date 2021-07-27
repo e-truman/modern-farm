@@ -1,3 +1,11 @@
+import { createAsparagus } from "./seeds/asparagus.js"
+import { createSunflower } from "./seeds/sunflower.js"
+import { createWheat } from "./seeds/wheat.js"
+
+
+
+
+
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 export const createPlan = () => {
@@ -13,6 +21,12 @@ export const createPlan = () => {
 
     return plan
 }
+
+
+
+
+
+
 
 
 

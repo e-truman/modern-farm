@@ -1,30 +1,18 @@
-const createAsparagus = () => {
-    let soybean = {}
-        soybean.type = soybean
-        soybean.height = 20
-        soybean.output = 4
-    }
+export const createAsparagus = () => {
+    let asparagus = {}
+        asparagus.type = "asparagus"
+        asparagus.height = 24
+        asparagus.output = 4
+        return asparagus
 }
 
+   
+
+
+// let crops = []
+// crops.push(asparagusObject)
 
 
 
 
 
-
-
-
-// const createNote = (note) => {
-
-//     const lastIndex = notes.length -1
-//     const currentLastNote = notes[lastIndex]
-//     const maxId = currentLastNote.id
-//     const idForNewNote = maxId +1
-
-//     note.id = idForNewNote
-
-//     const newDate = new Date()
-//     note.date = newDate
-//     notes.push(note)
-//     console.log(`${note.id} ${note.date}`)
-// }
