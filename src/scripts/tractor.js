@@ -43,7 +43,7 @@ export const plantSeeds = (plantingPlanArray) => {
                 addPlant(createWheat() ) 
             } else if (plant.type === "potato") {
                 addPlant(createPotato())  
-            } else (plant.type === "corn") {
+            } else if  (plant.type === "corn") {
                 addPlant(createCorn()) 
                 }
                  
@@ -52,7 +52,7 @@ export const plantSeeds = (plantingPlanArray) => {
         }
         
     }
-} 
+
 
 
         
